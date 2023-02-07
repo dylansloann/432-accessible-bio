@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .banner {
   height: 100%;
   display: flex;
@@ -8,11 +12,12 @@
 }
 
 header {
-  height: 100vh;
+  height: 97vh;
   background-image: url("./landing-page.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 98% 98%;
   background-position: center;
+  padding: 10px;
 }
 
 section {
@@ -30,7 +35,7 @@ section {
   color: white;
 }
 
-.access-interest p {
+.access-interest ul {
   color: lightgray;
 }
 
@@ -42,8 +47,14 @@ section {
   width: 30vw;
 }
 
+.access-text {
+  width: 100%;
+  margin-left: 10%;
+}
+
 .contact {
-    justify-content: center;
+  justify-content: center;
+  min-height: 30vh;
 }
 
 .contact form {
@@ -52,4 +63,22 @@ section {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin-right: 20px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none; 
+}
+
+.socials li {
+  margin-left: 20px;
 }
