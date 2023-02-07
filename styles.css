@@ -17,9 +17,6 @@ header {
 
 section {
   padding: 5vw;
-}
-
-.about {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -41,8 +38,17 @@ section {
   width: 30vw;
 }
 
+.access-img {
+  width: 30vw;
+}
+
 .contact {
+    justify-content: center;
+}
+
+.contact form {
   height: 15vh;
+  width: 30vw;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
