@@ -1,0 +1,49 @@
+.banner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+header {
+  height: 100vh;
+  background-image: url("./landing-page.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  padding: 5vw;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.access-interest {
+  background-color: #2b2b2b;
+}
+
+.access-interest h2 {
+  color: white;
+}
+
+.access-interest p {
+  color: lightgray;
+}
+
+.portrait {
+  width: 30vw;
+}
+
+.contact {
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
