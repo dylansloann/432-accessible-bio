@@ -16,8 +16,8 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .banner-text {
@@ -52,8 +52,11 @@ section {
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   section {
+    flex-direction: column;
+  }
+  header {
     flex-direction: column;
   }
 }
