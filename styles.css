@@ -65,7 +65,7 @@ img {
 }
 
 .contact form {
-  height: 15vh;
+  height: auto;
   width: 30vw;
   display: flex;
   justify-content: space-between;
