@@ -1,6 +1,15 @@
 html, body{
   overflow-x: hidden;
   margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+  height: 99vh;
+  background-image: url("./test-landing.png");
+  background-repeat: no-repeat;
+  background-size: 98% 98%;
+  background-position: center;
 }
 
 .banner {
@@ -8,25 +17,16 @@ html, body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding-top: 180px;
   color: white;
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 7em;
 }
 
 .banner p {
-  font-size: 1.2em;
-}
-
-header {
-  height: 97vh;
-  background-image: url("./landing-page.png");
-  background-repeat: no-repeat;
-  background-size: 98% 98%;
-  background-position: center;
-  padding: 10px;
+  font-size: 1.4em;
 }
 
 section {
