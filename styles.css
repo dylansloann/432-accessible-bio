@@ -1,8 +1,5 @@
-html,body{
+html, body{
   overflow-x: hidden;
-}
-
-body {
   margin: 0;
 }
 
@@ -13,6 +10,14 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+.banner p {
+  font-size: 1.2em;
 }
 
 header {
@@ -78,8 +83,25 @@ img {
   height: auto;
   width: 30vw;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-section input {
+  width: 100%;
+}
+
+.form-section textarea {
+  width: 100%;
+}
+
+.form-section label {
+  min-width: 100px;
 }
 
 .footer {

@@ -78,13 +78,18 @@
         enctype="text/plain"
       >
         <h2>Contact</h2>
-        <input type="text" name="name" placeholder="Enter name" />
-        <input type="text" name="email" placeholder="Enter email" />
-        <textarea
-          type="text"
-          name="message"
-          placeholder="Enter message"
-        ></textarea>
+        <div class="form-section">
+          <label for="name">Name</label><br />
+          <input type="text" id="name" />
+        </div>
+        <div class="form-section">
+          <label for="email">Email</label><br />
+          <input type="text" id="email" />
+        </div>
+        <div class="form-section">
+          <label for="message">Message</label><br />
+          <textarea type="text" id="message"></textarea>
+        </div>
         <input type="submit" value="Send" />
         <input type="reset" value="Reset" />
       </form>
@@ -95,14 +100,14 @@
           <a
             href="https://github.com/dylansloann"
             class="fa fa-lg fa-github"
-            alt="github icon"
+            aria-label="github profile"
           ></a>
         </li>
         <li>
           <a
             href="https://www.linkedin.com/in/dfsloan/"
             class="fa fa-lg fa-linkedin"
-            alt="linkedin icon"
+            aria-label="linkedin profile"
           ></a>
         </li>
       </ul>
