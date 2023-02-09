@@ -24,6 +24,7 @@ section {
   padding: 5vw;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -43,12 +44,14 @@ section {
   color: lightgray;
 }
 
-.portrait {
-  width: 30vw;
+img {
+  max-height:400px;
+  width: auto;
+  height: auto;
 }
 
-.access-img {
-  width: 30vw;
+.portrait {
+  margin-right: 30px;
 }
 
 .access-text {
