@@ -1,32 +1,47 @@
-html, body{
+html,
+body {
   overflow-x: hidden;
   margin: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 header {
-  height: 99vh;
-  background-image: url("./assets/test-landing.png");
+  height: 100vh;
+  background-image: url("./assets/blue-gradient.png");
   background-repeat: no-repeat;
-  background-size: 98% 98%;
+  background-size: 100% 100%;
   background-position: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
-.banner {
+.banner-text {
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding-top: 180px;
+  align-items: flex-start;
+  justify-content: center;
   color: white;
+}
+
+img {
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  border: 5px solid #555;
 }
 
 h1 {
   font-size: 7em;
 }
 
-.banner p {
-  font-size: 1.4em;
+.banner-text p {
+  font-size: 1.2em;
 }
 
 section {
@@ -48,7 +63,7 @@ section {
 }
 
 .access-interest {
-  background-color: #2b2b2b;
+  background-color: #090f1c;
 }
 
 .access-interest h2 {
@@ -57,12 +72,6 @@ section {
 
 .access-interest ul {
   color: lightgray;
-}
-
-img {
-  max-height:400px;
-  width: auto;
-  height: auto;
 }
 
 .portrait {
@@ -115,7 +124,7 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  list-style-type: none; 
+  list-style-type: none;
 }
 
 .socials li {
