@@ -95,7 +95,7 @@ section {
 }
 
 .access-interest {
-  background-color: #090f1c;
+  background-color: #101727;
 }
 
 .access-interest h2 {
@@ -113,6 +113,10 @@ section {
 .access-text {
   width: 100%;
   margin-left: 10%;
+}
+
+.access-text a {
+  color: #eaa439;
 }
 
 .contact {
